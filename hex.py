@@ -6,7 +6,7 @@ inpfile = sys.argv[3]
 
 key = open(keyfile + '.txt').read()[:-1] #removes the mandatory \n at the end of the file to support one line messages.
 inp = open(inpfile + '.txt').read()[:-1] #removes the mandatory \n at the end of the file to support one line messages.
-debug = True
+debug = False
 
 
 if(debug):
